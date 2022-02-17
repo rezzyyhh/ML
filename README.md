@@ -6,7 +6,7 @@ Please note we will require you to use Java as the language and ideally, Spring 
 
 
 User story:
-As a Product Manager, you would like to manage users’ accesses to new features via feature switches,
+You would like to manage users’ accesses to new features via feature switches,
 i.e. enabling/disabling certain feature based on a user’s email and feature names).
 
 Requirements:
