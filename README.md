@@ -1,15 +1,14 @@
-# MoneyLion
-Technical Assessment :
+# MoneyLion Technical Assessment :
 
 
 Please note we will require you to use Java as the language and ideally, Spring Boot as the framework.
 
 
-# User story:
+## User story:
 You would like to manage users’ accesses to new features via feature switches,
 i.e. enabling/disabling certain feature based on a user’s email and feature names).
 
-# Requirements:
+## Requirements:
 - ```GET /feature?email=XXX&featureName=XXX```  
 This endpoint receives `email` (user's email) and `featureName` as request parameters and return the following response in JSON format.
 
