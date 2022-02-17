@@ -6,7 +6,7 @@ Please note that you are required to use Java as the language and ideally, Sprin
 
 ## User story:
 You would like to manage users’ accesses to new features via feature switches,
-i.e. enabling/disabling certain feature based on a user’s email and feature names).
+i.e. enabling/disabling certain feature based on a user’s email and feature names.
 
 ## Requirements:
 - ```GET /feature?email=XXX&featureName=XXX```  
