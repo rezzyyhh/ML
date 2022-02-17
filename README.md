@@ -1,7 +1,7 @@
 # MoneyLion Technical Assessment :
 
 
-Please note we will require you to use Java as the language and ideally, Spring Boot as the framework.
+Please note that you are required to use Java as the language and ideally, Spring Boot as the framework.
 
 
 ## User story:
