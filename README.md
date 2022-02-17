@@ -27,3 +27,4 @@ Example Request:
 "email": "xxx", (string) (user's name)
 "enable": true|false (boolean) (uses true to enable a user's access, otherwise
 }
+}
