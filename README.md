@@ -5,8 +5,7 @@ Please note that you are required to use Java as the language and ideally, Sprin
 
 
 ## User story:
-You would like to manage users’ accesses to new features via feature switches,
-i.e. enabling/disabling certain feature based on a user’s email and feature names.
+Managing users’ accesses to new features via feature switches, i.e. enabling/disabling certain feature based on a user’s email and feature names.
 
 ## Requirements:
 - ```GET /feature?email=XXX&featureName=XXX```  
@@ -16,14 +15,12 @@ This endpoint receives `email` (user's email) and `featureName` as request param
 Example Response:
 ```
 {
-  "canAccess": true|false (will be true if the user has accss to the featureName)
+  "canAccess": true|false (will be true if the user has access to the featureName)
 }
 ```
 
 - `POST /feature`  
-This endpoint receives the following request in JSON format and returns an empty
-response with HTTP Status OK (200) when the database is updated successfully, otherwise
-returns Http Status Not Modified (304).
+This endpoint receives the following request in JSON format and returns an empty response with HTTP Status OK (200) when the database is updated successfully, otherwise returns Http Status Not Modified (304).
 
 Example Request:
 ```
